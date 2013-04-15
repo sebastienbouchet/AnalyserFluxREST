@@ -15,7 +15,7 @@ public class Utils {
 		return "<\\s*"+tag+"\\s+"+attribut+"\\s*=\\s*[\"|']([^\"']+)[\"|']";
 	}
 
-	// Télécharge la page et renvoie son contenu
+	// Telecharge la page et renvoie son contenu
 	static public String wget(String site) {
 		StringBuffer content = new StringBuffer();
 		String line;
